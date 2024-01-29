@@ -3,8 +3,11 @@ import { Card, CardBody } from "reactstrap";
 import { Link } from "react-router-dom";
 import "./tour-card.css";
 
+
+
 const TourCard = ({ tour }) => {
   const { _id, title, city, photo, price, featured, reviews } = tour;
+  console.log(photo)
   const totalRating = reviews?.reduce((acc, item) => acc + item.rating, 0);
   const avgRating =
     totalRating === 0

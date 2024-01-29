@@ -78,8 +78,7 @@
     }
 
     .mobile_menu{
-        position: absolute;
-        right:10%;
+       
         display: block;
     }
 }
