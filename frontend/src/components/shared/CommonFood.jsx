@@ -4,7 +4,7 @@ import {Container , Row , Col} from 'reactstrap'
 
 const CommonFood = ({title}) => {
   return (
-    <section className='common_section'>
+    <section className='common_food'>
         <Container>
             <Row>
                 <Col lg='12'>
