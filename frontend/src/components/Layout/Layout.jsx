@@ -9,7 +9,7 @@ import SearchResultList from "../../pages/SearchResultList";
 import Header from "./../Header/Header";
 import Footer from "./../Footer/Footer";
 import ThankYou from "../../pages/ThankYou";
-
+import Food from "../../pages/Food"
 const Layout = () => {
   return (
     <>
@@ -21,6 +21,7 @@ const Layout = () => {
         <Route path="/tours/:id" element={<TourDetails />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/food" element={<Food />} />
         <Route path="/thank-you" element={<ThankYou />} />
         <Route path="/tours/search" element={<SearchResultList />} />
       </Routes>
