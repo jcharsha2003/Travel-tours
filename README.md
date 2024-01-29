@@ -7,9 +7,9 @@ npm start
 ```
 ## on the other side terminal run 
 # add .env file in backend folder 
-## MONGO_URI=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-## PORT=xxxxx
-## JWT_SECRET_KEY=xxxxx
+MONGO_URI=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+PORT=xxxxx
+JWT_SECRET_KEY=xxxxx
 ```
 cd backend
 npm i
